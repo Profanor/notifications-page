@@ -42,7 +42,7 @@ body {
     padding: 5px;
 }
 .Notifications h2:hover {
-    color: blue;
+    color: hsl(219, 85%, 26%);
     cursor: pointer;
 }
 .counter {
@@ -51,7 +51,7 @@ body {
 	margin-right: 300px;
 }
 .mark {
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border: none;
     border: 1px gray;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
     width: 100%;
 }
 .mark2 {
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border: 1px gray;
     border-radius: 10px;
     box-sizing: border-box;
@@ -74,7 +74,7 @@ body {
     width: 100%;
 }
 .mark3 {
-    background-color:  hsl(211, 68%, 94%);
+    background-color: hsl(210, 60%, 98%);
     border: 1px gray;
     border-radius: 10px;
     box-sizing: border-box;
@@ -86,19 +86,20 @@ body {
 }
 .mark4 {
     display: flex;
-    margin: 3px auto;
+    margin: 5px auto;
     padding: 10px;
     height: 65px;
     width: 100%;
 }
 .mark5 {
     display: flex;
-    margin: 30px auto;
+    margin-top: 75px;
     padding: 10px;
     height: 65px;
     width: 100%;
 }
 .mark6 {
+    background-color: beige;
     display: flex;
     margin: 5px auto;
     padding: 10px;
@@ -120,13 +121,19 @@ body {
 .rizky {
     border: 2px solid hsl(211, 68%, 94%);
     box-sizing: border-box;
-    border-radius: 7px;
-    margin: 40px auto;
-    height: 70px;
-    width: 85%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    height: 65px;
+    width: 100%;
 }
 .rizky {
     outline: none;
+}
+.rizky:hover {
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
 }
 .mark h3 {
     display: flex;
@@ -142,18 +149,102 @@ body {
     justify-content: center;
     align-items: center;
 }
+.mark3 h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.mark4 h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.mark5 h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.mark6 h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.mark7 h3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
 .mark .text {
-    margin: 10px;
+    margin: 5px;
+    margin-left: 15px;
 }
 .mark2 .text {
-    margin: 10px;
+    margin: 5px;
+    margin-left: 15px;
+}
+.mark3 .text {
+    margin: 5px;
+    margin-left: 15px;
+}
+.mark4 .text {
+    margin: 5px;
+    margin-left: 15px;
+}
+.mark5 .text {
+    margin: 5px;
+    margin-left: 15px;
+}
+.mark6 .text {
+    margin: 5px;
+    margin-left: 15px;
+}
+.mark7 .text {
+    margin: 5px;
+    margin-left: 15px;
 }
 .circle {
-    .circle {
-        height: 10px;
-        width: 10px;
-        background-color: red;
-        border-radius: 50%;
-        display: inline-block;
-      }
+    height: 7px;
+    width: 7px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+.grays {
+    color: gray;
+    margin-left: 5px;
+}
+.grays2 {
+    color: hsl(221, 16%, 24%);
+    margin-left: 5px;
+}
+.grays3 {
+    color: hsl(221, 16%, 24%);
+    margin-left: 5px;
+}
+.grays2:hover {
+    cursor: pointer;
+    color:  hsl(219, 85%, 26%);
+}
+.grays4 {
+    color: hsl(221, 16%, 24%);
+    margin-left: 5px;
+}
+.blues {
+    color:  hsl(219, 85%, 26%);
+    margin-left: 5px;
+}
+.blues:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
 }
