@@ -110,7 +110,7 @@ body {
     display: flex;
     margin: 5px auto;
     padding: 10px;
-    height: 65px;
+    height: 45px;
     width: 100%;
 }
 .markstyles {
@@ -134,7 +134,10 @@ body {
     display: flex;
     margin: 25px auto;
     height: 65px;
-    width: 100%;
+    width: 168%;
+}
+.rizky p {
+    padding: 10px;
 }
 .rizky {
     outline: none;
