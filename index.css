@@ -46,9 +46,18 @@ body {
     cursor: pointer;
 }
 .counter {
-	display: inline-block;
-	font-size: 18px;
-	margin-right: 300px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 20%;
+    color: white;
+	display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+	margin-right: 280px;
+    height: 20px;
+    width: 30px;
 }
 .mark {
     background-color: hsl(210, 60%, 98%);
@@ -133,11 +142,15 @@ body {
     border-radius: 5px;
     display: flex;
     margin: 25px auto;
+    overflow: auto;
     height: 65px;
-    width: 168%;
+    width: 100%;
 }
-.rizky p {
+.rizky h4 {
+    color: gray;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 .rizky {
     outline: none;
@@ -171,8 +184,6 @@ body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 .mark5 h3 {
     display: flex;
