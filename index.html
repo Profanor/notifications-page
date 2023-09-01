@@ -12,8 +12,8 @@
   <div class="container">
     <div class="Notifications">
     <h1>Notifications</h1>
-    <div class="counter">3</div>
-    <h2>Mark all as read</h2>
+    <div class="counter" id="number">3</div>
+    <h2 id="toggle" onclick="clearState()">Mark all as read</h2>
     </div>
     <div class="mark" id="webber">
       <img src="/assets/images/avatar-mark-webber.webp" class="markstyles">
@@ -82,7 +82,7 @@
       <div class="text">
       <h3>Anna Kim
         <span class="grays"> left the group</span>
-          <span class="blues">Chess Club</span>
+          <span class="blues" id="kim">Chess Club</span>
       </h3>
     </div>
     </div>
