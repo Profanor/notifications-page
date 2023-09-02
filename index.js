@@ -6,10 +6,11 @@ const notifyMe = document.querySelector("number");
 const toggleMe = document.querySelector("toggle");
 
 //reset the number of notifications to zero
-function clearState() {
+function clearState(e) {
     document.getElementById("number").innerHTML = 0;
     document.getElementById("webber").style.backgroundColor = "white";
     document.getElementById("angela").style.backgroundColor = "white";
     document.getElementById("jacob").style.backgroundColor = "white";
     document.getElementById("kim").style.color = "gray";
 }
+e.preventDefault();
